@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Pocket News</string>
+    <string name="str_back_button">Back button</string>
 </resources>
