@@ -41,4 +41,5 @@ com-squareup-okhttp3-logging-interceptor = { group = "com.squareup.okhttp3", nam
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-parcelize = { id = "kotlin-parcelize", version.ref = "kotlin"  }
 
