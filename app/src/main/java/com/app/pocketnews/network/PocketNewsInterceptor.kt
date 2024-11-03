@@ -17,8 +17,8 @@ class PocketNewsInterceptor : Interceptor {
         val request: Request = chain.request()
         addHeaderLenient(
             request.headers.newBuilder(),
-            PocketNewsConstants.ApiConstants.X_API_KEY,
-            BuildConfig.X_API_KEY
+            PocketNewsConstants.ApiConstants.HEADER_X_API_KEY,
+           PocketNewsConstants.ApiConstants.HEADER_X_API_KEY_VALUE
         )
         if (BuildConfig.DEBUG) {
             val t1 = System.nanoTime()

@@ -18,8 +18,6 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-        buildConfigField("String", "X_API_KEY", project.ext.get("X_API_KEY").toString())
-
     }
 
     buildTypes {
